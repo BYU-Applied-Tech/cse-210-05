@@ -33,7 +33,7 @@ class VideoService:
 
         Args:
             actor (Actor): The actor to draw.
-        """ 
+        """  
         text = actor.get_text()
         x = actor.get_position().get_x()
         y = actor.get_position().get_y()
